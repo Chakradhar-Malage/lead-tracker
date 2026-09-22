@@ -21,3 +21,6 @@ dist/
 
 # Alembic
 backend/.env
+
+# SQLite test artifacts
+backend/*.db
