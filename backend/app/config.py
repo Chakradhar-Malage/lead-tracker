@@ -17,7 +17,7 @@ class Settings(BaseSettings):
 
     # Comma-separated list of allowed CORS origins. In production this should
     # be set to the deployed frontend URL(s).
-    cors_origins: str = "http://localhost:5173,http://localhost:3000"
+    cors_origins: str = "http://localhost:5173,http://localhost:3000,https://lead-tracker-assignment.onrender.com"
 
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
