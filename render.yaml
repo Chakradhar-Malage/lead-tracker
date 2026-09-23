@@ -11,7 +11,7 @@ services:
     name: lead-tracker-api
     runtime: docker
     plan: free
-    dockerfilePath: ./backend/Dockerfile
+    dockerfilePath: ./Dockerfile
     dockerContext: ./backend
     healthCheckPath: /health
     envVars:
